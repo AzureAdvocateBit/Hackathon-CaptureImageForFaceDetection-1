@@ -6,7 +6,7 @@ This repo provides a template for a Python/Flask app that streams images from th
 
 * Select the **Use this template** button at the top of the page. This will create a new GitHub repo in your account using the code from here as the basic template.
 * Clone the new repo
-* Open it in [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=hackathoncaptureimageforface-github-jabenn). You will need the [Python extension](https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&WT.mc_id=hackathoncaptureimageforface-github-jabenn) installed in Visual Studio Code.
+* Open it in [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-jabenn). You will need the [Python extension](https://marketplace.visualstudio.com/itemdetails?itemName=ms-python.python&WT.mc_id=academic-0000-jabenn) installed in Visual Studio Code.
 * Open the terminal and install the pip packages from the `requirements.txt` file:
 
   ```sh
@@ -27,15 +27,15 @@ THe app will contain configuration to allow you to debug it as a Flask app from 
 
 * If you don't already have an Azure account, you will need to create one:
 
-  * Students can sign up at [aka.ms/FreeStudentAzure](https://azure.microsoft.com/free/students/?WT.mc_id=hackathoncaptureimageforface-github-jabenn) using a valid higher education email address. You won't need a credit card and will get US$100 to use for 12 months, as well as 12 months of free services. After 12 months if you are still a student you can renew for another 12 months and get another $100 and free services, and so on each year you are still a student.
+  * Students can sign up at [aka.ms/FreeStudentAzure](https://azure.microsoft.com/free/students/?WT.mc_id=academic-0000-jabenn) using a valid higher education email address. You won't need a credit card and will get US$100 to use for 12 months, as well as 12 months of free services. After 12 months if you are still a student you can renew for another 12 months and get another $100 and free services, and so on each year you are still a student.
 
-  * If you are not a student you can sign up at [aka.ms/FreeAz](https://azure.microsoft.com/free/?WT.mc_id=hackathoncaptureimageforface-github-jabenn). You will need a credit card to verify you are not a bot (you won't be charged anything), and wil get US$200 for 30 days, as well as 12 months of free services.
+  * If you are not a student you can sign up at [aka.ms/FreeAz](https://azure.microsoft.com/free/?WT.mc_id=academic-0000-jabenn). You will need a credit card to verify you are not a bot (you won't be charged anything), and wil get US$200 for 30 days, as well as 12 months of free services.
 
 You can create a Face API resource from either the Azure portal, or the Azure CLI.
 
 ### Create a Face API resource from the Azure portal
 
-* Open the Azure Portal from [portal.azure.com](https://portal.azure.com/?WT.mc_id=hackathoncaptureimageforface-github-jabenn). Log in if required.
+* Open the Azure Portal from [portal.azure.com](https://portal.azure.com/?WT.mc_id=academic-0000-jabenn). Log in if required.
 
 * Select *Create a resource* or select the green plus button.
 
@@ -70,7 +70,7 @@ You can create a Face API resource from either the Azure portal, or the Azure CL
 
 ### Create a Face API resource from the Azure CLI
 
-* Ensure you have the [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli/?WT.mc_id=hackathoncaptureimageforface-github-jabenn) installed
+* Ensure you have the [Azure CLI](https://docs.microsoft.com/cli/azure/install-azure-cli/?WT.mc_id=academic-0000-jabenn) installed
 
 * Log in to your azure account
 
@@ -110,7 +110,7 @@ You can create a Face API resource from either the Azure portal, or the Azure CL
 
   Replace `<face-name>` with a name for your face resource. This will form part of the URL, so needs to be globally unique. Replace `<resource-group-name>` with the name for your resource group, and `<location>` with the closest location to you.
 
-  > This creates a free tier resource, which gives you 20 calls per minute and 5,000 per month. If you want to use a different tier, replace `--sku F0` with a different sku, such as `S0`. See the [pricing docs](https://azure.microsoft.com/pricing/details/cognitive-services/face-api/?WT.mc_id=hackathoncaptureimageforface-github-jabenn) for more details.
+  > This creates a free tier resource, which gives you 20 calls per minute and 5,000 per month. If you want to use a different tier, replace `--sku F0` with a different sku, such as `S0`. See the [pricing docs](https://azure.microsoft.com/pricing/details/cognitive-services/face-api/?WT.mc_id=academic-0000-jabenn) for more details.
 
 * The output of this command will contain and endpoint, so take a note of this value as you will need it later.
 
@@ -147,13 +147,13 @@ You can create a Face API resource from either the Azure portal, or the Azure CL
   ####################################################
   ```
 
-To see a range of capabilities of the Face API, check out the [QuickStarts in the Cognitive Services docs](https://docs.microsoft.com/azure/cognitive-services/face/quickstarts/python-sdk/?WT.mc_id=hackathoncaptureimageforface-github-jabenn).
+To see a range of capabilities of the Face API, check out the [QuickStarts in the Cognitive Services docs](https://docs.microsoft.com/azure/cognitive-services/face/quickstarts/python-sdk/?WT.mc_id=academic-0000-jabenn).
 
 You can see an example of a similar app that uses the Face API to identify emotions and create a game in [this GitHub repo](https://github.com/jimbobbennett/HappySadAngryWorkshop).
 
 ## Deploying to Azure
 
-Once your app is complete, you can deploy it to an [Azure App Service](https://azure.microsoft.com/services/app-service/?WT.mc_id=hackathoncaptureimageforface-github-jabenn). There is an [Azure App Service extension for Visual Studio Code](https://marketplace.visualstudio.com/itemdetails?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=hackathoncaptureimageforface-github-jabenn) that you can use to allow you to deploy from inside Visual Studio Code.
+Once your app is complete, you can deploy it to an [Azure App Service](https://azure.microsoft.com/services/app-service/?WT.mc_id=academic-0000-jabenn). There is an [Azure App Service extension for Visual Studio Code](https://marketplace.visualstudio.com/itemdetails?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=academic-0000-jabenn) that you can use to allow you to deploy from inside Visual Studio Code.
 
 > Deploying apps from VS Code is not recommended for production apps, but is great for development or a hackathon
 
